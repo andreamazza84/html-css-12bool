@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Colorazione colonne */
+[class*="col-"] {
+  height: 200px;
+  background: pink;
+  border: 2px solid #222;
+}
+/* Colorazione colonne nested */
+.row > [class*="col-"] {
+  background-color: #f07f80;
+  border: 2px solid pink;
+}
